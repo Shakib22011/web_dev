@@ -1,0 +1,27 @@
+.navbarcreate{
+    background-color: #e61f1f;
+    padding: 10px 20px;
+    display: flex;                
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+}
+.navbarcreate ul{
+list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbarcreate a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbarcreate a:hover {
+    color: lightseagreen;
+}
+.navbarcreate a:active {
+    transform: scale(0.95);
+    color: orangered;
+}

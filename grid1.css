@@ -1,0 +1,67 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+    grid-template-areas: "side1 nav1 nav1 nav2 nav2"
+        "side1 left middle middle right"
+        "side2 left middle middle right"
+        "side2 left1 left1 right1 right  ";
+    height: 100vh;
+
+}
+
+#side1 {
+    grid-area: side1;
+    background-color: #f8b400;
+    border: 10px solid #000;
+}
+
+#side2 {
+    grid-area: side2;
+    background-color: #6a2c70;
+    border: 10px solid #000;
+}
+
+#nav1 {
+    grid-area: nav1;
+    background-color: #b83b5e;
+    border: 10px solid #000;
+}
+
+#nav2 {
+    grid-area: nav2;
+    background-color: #f08a5d;
+    border: 10px solid #000;
+}
+
+#left {
+    grid-area: left;
+    background-color: #0b4f6c;
+    border: 10px solid #000;
+
+}
+
+#left1 {
+    grid-area: left1;
+    background-color: #01baef;
+    border: 10px solid #000;
+}
+
+#right {
+    grid-area: right;
+    background-color: #01baef;
+    border: 10px solid #000;
+
+}
+
+#right1 {
+    grid-area: right1;
+    background-color: #0b4f6c;
+    border: 10px solid #000;
+}
+
+#middle {
+    grid-area: middle;
+    background-color: #3f72af;
+    border: 10px solid #000;
+}
