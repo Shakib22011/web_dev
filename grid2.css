@@ -12,25 +12,25 @@
 }
 nav{
     grid-area: nav;
-    background:orange;
+    background:rgb(228, 151, 9);
 }
 main{
     grid-area: main;
-    background:lightblue;
+    background:rgb(61, 192, 236);
 }
 #side{
     grid-area: side;
-    background:lightgreen;
+    background:rgb(14, 240, 14);
 }
 #left{
     grid-area: left;
-    background:lightcoral;
+    background:rgb(94, 21, 21);
 }
 #right{
     grid-area: right;
-    background:lightgray;
+    background:rgb(238, 9, 9);
 }
 footer{
     grid-area: footer;
-    background:lightpink;
+    background:rgb(76, 238, 111);
 }
