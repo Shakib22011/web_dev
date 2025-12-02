@@ -8,3 +8,24 @@
 button{
     background-color:green;
 }
+
+#id1{
+    text-align:center;
+    text-transform: capitalize;
+    font-family:arial;
+}
+#outer{
+    font-size:25px;
+}
+#inner{
+    font-size:10px;
+}
+
+#id2{
+    height:100px;
+    width:100px;
+    border-width:3px;
+    border-style:dashed;
+    border-radius:50%;
+    background-color:green;
+}
