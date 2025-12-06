@@ -1,0 +1,81 @@
+
+#id5{
+    height:100px;
+    width:100px;
+    border:3px dashed black;
+    margin-bottom:7px;
+    margin-left:7px;
+    background-color:rgba(5, 153, 5,0.5);
+}
+ #id6{
+    height:100px;
+    width:100px;
+    border:3px dashed black;
+    margin-bottom:7px;
+    margin-left:7px;
+     background-color:rgba(236, 91, 7, 0.5);
+}
+#id7{
+    height:100px;
+    width:100px;
+    border:3px dashed black;
+    margin-bottom:7px;
+    margin-left:7px;
+     background-color:rgba(230, 7, 230, 0.5);
+} 
+/*placing the boxes in a line or row */
+/* main{
+     display:flex; 
+} */
+ #id5,#id6,#id7{
+    display:inline-block;
+ }
+ #id8{
+    height:300px;
+    width:300px;
+    background-image:url("my_image.jpg");
+    background-size:cover;
+    position:fixed; 
+    right:0px;
+    top:40%;
+    
+ }
+
+body{
+    /* Alpha channel or opacity(0 to 1) */
+    background-color:rgba(85, 82, 248,0.5);
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+#id3{
+    background-color:#0f1111;
+    height:60px;
+    border-width:5px;
+    border-style:solid;
+    border-color:white;
+    
+}
+#logo{
+    font-size:25px;
+    color:rgba(252, 165, 3, 0.747);
+}
+a{
+    margin-right:200px;
+    text-decoration:none;
+    color:white;
+}
+#id4{
+    background-color:rgba(252, 165, 3, 0.747);
+}
+
+footer{
+    color:white;
+    position:fixed; /* it makes the content to inline property and moves to its default position mrans left position, so the whole text is at the left*/
+    bottom:0px;
+    width:100%;
+    text-align:center;
+    background-color:black;
+    
+}

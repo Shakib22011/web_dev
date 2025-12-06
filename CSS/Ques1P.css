@@ -1,3 +1,7 @@
+body{
+    /* Alpha channel or opacity(0 to 1) */
+    background-color:rgba(85, 82, 248,0.5);
+}
 #box{
     background-color:blue;
     color:white;
@@ -28,4 +32,29 @@ button{
     border-style:dashed;
     border-radius:50%;
     background-color:green;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+}
+#id3{
+    background-color:#0f1111;
+    height:60px;
+    border-width:5px;
+    border-style:solid;
+    border-color:white;
+    
+}
+#logo{
+    font-size:25px;
+    color:rgba(252, 165, 3, 0.747);
+}
+a{
+    margin-right:200px;
+    text-decoration:none;
+    color:white;
+}
+#id4{
+    background-color:rgba(252, 165, 3, 0.747);
 }

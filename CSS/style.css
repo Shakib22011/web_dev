@@ -55,3 +55,50 @@ body{
 }
 /* button{color:red;background-color:darkgreen;} */
 
+/* inline and block property */
+#id1{
+    background-color:blue;
+    /* by default div has block property */
+    display:inline;
+}
+#button1{
+    
+    /* by default button has inline property */
+    display:block;
+}
+
+#id2{
+    height:100px;
+    width:100px;
+    background-color:aquamarine;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
+#id3{
+    /* display:none; */
+    visibility:hidden;
+}
+
+/* Realtive unit */
+#id5{
+    background-color:green;
+    height:100px;
+    width:70%;
+    
+}
+#id6{
+    background-color:yellow;
+    height:50px;
+    width:50%;
+    font-size:2em;
+}
+#id7{
+    height:200px;
+    width:200px;
+    background-color:green;
+    margin:0 auto;
+    /* background image and size */
+    background-image:url("my_image.JPG");
+    background-size:cover;
+}

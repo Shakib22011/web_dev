@@ -1,0 +1,16 @@
+div{
+    height:200px;
+    width:200px;
+    background-color:green;
+    margin-left:40%;
+}
+@media(min-width: 800px){ /*min-width means er upor size hole change hoye ai color hobe*/
+    div{
+        background-color:yellow;
+    }
+}
+@media(min-width:400px) and (max-width:700px){
+    div{
+        background-color:orange;
+    }
+}
