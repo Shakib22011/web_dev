@@ -1,9 +1,25 @@
 div{
-    height:100px;
-    width:100px;
+    border:4px dashed black;
+    position:absolute;
+    left:300px;
+    top:300px;
+    height:200px;
+    width:300px;
     background-color:aqua;
+    /* transition-property:background-color; */
+    /* transition-property:all;
+    transition-duration:2s; 
+    transition-timing-function:steps(5); */
+    transition:all 1s linear ;
 }
+
 div:hover{
     background-color:green;
     color:white;
+    font-size:20px;
+    /* transform property */
+    transform:scalex(1.5);
+} 
+div:active{
+    background-color:blue;
 }
