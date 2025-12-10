@@ -3,9 +3,12 @@
     font-family: 'Times New Roman';
     border: border-box;
 }
+body{
+    background-color:rgb(205, 214, 221);
+}
 .navbar{
     height:60px;
-    background-color:#02162A;
+    background-color:#014139;
     color:white;
     display:flex;
     align-items:center;
@@ -91,7 +94,7 @@
 #p2{
     font-size:16px;
     font-weight:600;
-    background-color:#02162A;
+    background-color:#014139;
     color:white;
     border:none;
 }
@@ -121,7 +124,7 @@
 /* panel */
 .panel{
     display:flex;
-    background-color:#222f3d;
+    background-color:#005045;
     height:43px;
     align-items:center;
     
@@ -135,7 +138,7 @@
     margin-left:20px;
 }
 .panel-icon p{
-    font-size:1rem;
+    font-size:0.9rem;
     font-weight:700;
 }
 .panel-option a{
@@ -148,3 +151,40 @@
     margin-left:10px;
     width:100%;
 }
+
+/* hero section */
+.hero-section{
+    background-image:  url("hero_image1.jpg");
+    mask-image: linear-gradient(to bottom, black 40%, transparent);
+    height:600px;
+    width:80%;
+    background-size:cover;
+    margin: 0 auto;
+}
+
+/* boxes */
+.box-section{
+    position:absolute;
+    top:400px;
+    left: 50%;          
+    transform: translateX(-50%);
+    display:flex;
+    width:80%;
+    justify-content: space-evenly;
+   
+}
+.row1{
+    background-color:white;
+    height:350px;
+    width:21%;
+    padding:20px 0px 15px;
+}
+.box1 {
+    padding-left:16px;
+    padding-right:16px;
+}
+.box1 div{
+    background-image: url("box_image1.jpg");
+}
+
+
