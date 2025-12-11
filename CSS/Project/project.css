@@ -154,7 +154,7 @@ body{
 
 /* hero section */
 .hero-section{
-    background-image:  url("hero_image1.jpg");
+    background-image:  url("box_image.jpg");
     mask-image: linear-gradient(to bottom, black 40%, transparent);
     height:600px;
     width:79%;
@@ -173,18 +173,18 @@ body{
     justify-content: space-evenly;
    
 }
-.row1{
+.box-section1 .row1{
     background-color:white;
     height:380px;
-    width:22%;
+    width:21%;
     padding:20px 0px 15px;
 }
 /* box1 of row1 */
-.box1 {
+.box-section1 .box1 {
     padding-left:16px;
     padding-right:16px;
 }
-.box1 .image{
+.box-section1 .box1 .image{
     height:70%;
     width:100%;
     background-image: 
@@ -201,22 +201,22 @@ body{
         right bottom;
     margin-top:5px;
 }
-.box1 p{
+.box-section1 .box1 p{
     font-size:0.9rem;
     color:rgb(100, 99, 99);
 }
-.box1 a{
+.box-section1 .box1 a{
     position:relative;
     top:40px;
     text-decoration:none;
     color:rgb(38, 131, 168);
 }
 /* box2 of row1 */
-.box2 {
+.box-section1 .box2 {
     padding-left:16px;
     padding-right:16px;
 }
-.box2 .image{
+.box-section1 .box2 .image{
     height:70%;
     width:100%;
     background-image: 
@@ -233,22 +233,22 @@ body{
         right bottom;
     margin-top:5px;
 }
-.box2 p{
+.box-section1 .box2 p{
     font-size:0.9rem;
     color:rgb(100, 99, 99);
 }
-.box2 a{
+.box-section1 .box2 a{
     position:relative;
     top:40px;
     text-decoration:none;
     color:rgb(38, 131, 168);
 }
 /* box3 of row1 */
-.box3 {
+.box-section1 .box3 {
     padding-left:16px;
     padding-right:16px;
 }
-.box3 .image{
+.box-section1 .box3 .image{
     height:70%;
     width:100%;
     background-image: 
@@ -265,36 +265,211 @@ body{
         right bottom;
     margin-top:5px;
 }
-.box3 p{
+.box-section1 .box3 p{
     font-size:0.9rem;
     color:rgb(100, 99, 99);
 }
-.box3 a{
+.box-section1 .box3 a{
     position:relative;
     top:40px;
     text-decoration:none;
     color:rgb(38, 131, 168);
 }
 /* box 4 of row1 */
-.box4 {
+.box-section1 .box4 {
     padding-left:16px;
     padding-right:16px;
 }
-.box4 .image{
+.box-section1 .box4 .image{
     height:80%;
     width:100%;
     background-image: url("box_image4.jpg");
     margin-top:5px;
 }
-.box4 p{
+.box-section1 .box4 p{
     font-size:0.9rem;
     color:rgb(100, 99, 99);
 }
-.box4 a{
+.box-section1 .box4 a{
     position:relative;
     top:20px;
     text-decoration:none;
     color:rgb(38, 131, 168);
+}
+
+/* box-section2 */
+.box-section2{
+    position:absolute;
+    top:805px;
+    left: 50%;          
+    transform: translateX(-50%);
+    display:flex;
+    width:79%;
+    justify-content: space-evenly;
+   
+}
+.box-section2 .row1{
+    background-color:white;
+    height:380px;
+    width:21%;
+    padding:20px 0px 15px;
+}
+/* box1 of row2 */
+.box-section2 .box1 {
+    padding-left:16px;
+    padding-right:16px;
+}
+.box-section2 .box1 .image{
+    height:70%;
+    width:100%;
+    background-image: 
+        url("image11.jpg"),
+        url("image12.jpg"),
+        url("image13.jpg"),
+        url("image14.jpg");
+    background-size: 45% 45%, 45% 45%, 45% 45%, 45% 45%;
+    background-repeat:no-repeat;
+    background-position:
+        left top,
+        right top,
+        left bottom,
+        right bottom;
+    margin-top:5px;
+}
+.box-section2 .box1 p{
+    font-size:0.9rem;
+    color:rgb(100, 99, 99);
+}
+.box-section2 .box1 a{
+    position:relative;
+    top:40px;
+    text-decoration:none;
+    color:rgb(38, 131, 168);
+}
+/* box2 of row2 */
+.box-section2 .box2 {
+    padding-left:16px;
+    padding-right:16px;
+}
+.box-section2 .box2 .image{
+    height:70%;
+    width:100%;
+    background-image: 
+        url("image21.jpg"),
+        url("image22.jpg"),
+        url("image23.jpg"),
+        url("image24.jpg");
+    background-size: 45% 45%, 45% 45%, 45% 45%, 45% 45%;
+    background-repeat:no-repeat;
+    background-position:
+        left top,
+        right top,
+        left bottom,
+        right bottom;
+    margin-top:5px;
+}
+.box-section2 .box2 p{
+    font-size:0.9rem;
+    color:rgb(100, 99, 99);
+}
+.box-section2 .box2 a{
+    position:relative;
+    top:40px;
+    text-decoration:none;
+    color:rgb(38, 131, 168);
+}
+/* box3 of row2 */
+.box-section2 .box3 {
+    padding-left:16px;
+    padding-right:16px;
+}
+.box-section2 .box3 .image{
+    height:80%;
+    width:100%;
+    background-image: url("image3.jpg");
+    margin-top:5px;
+}
+.box-section2 .box3 p{
+    font-size:0.9rem;
+    color:rgb(100, 99, 99);
+}
+.box-section2 .box3 a{
+    position:relative;
+    top:20px;
+    text-decoration:none;
+    color:rgb(38, 131, 168);
+}
+
+/* box 4 of row2 */
+.box-section2 .box4 {
+    padding-left:16px;
+    padding-right:16px;
+}
+.box-section2 .box4 .image{
+    height:70%;
+    width:100%;
+    background-image: 
+        url("image41.jpg"),
+        url("image42.jpg"),
+        url("image43.jpg"),
+        url("image44.jpg");
+    background-size: 45% 45%, 45% 45%, 45% 45%, 45% 45%;
+    background-repeat:no-repeat;
+    background-position:
+        left top,
+        right top,
+        left bottom,
+        right bottom;
+    margin-top:5px;
+}
+.box-section2 .box4 p{
+    font-size:0.9rem;
+    color:rgb(100, 99, 99);
+}
+.box-section2 .box4 a{
+    position:relative;
+    top:40px;
+    text-decoration:none;
+    color:rgb(38, 131, 168);
+}
+
+/* box section 3 */
+.box-section3{
+    position:absolute;
+    top:1240px;
+    left: 50%;          
+    transform: translateX(-50%);
+    width:79%;
+    padding:20px 0px 15px;
+    background-color:white;
+    height:240px;
+    width:76%;
+    padding:15px 0px 20px 15px;
+}
+.box-section3 .image{
+   margin-top:7px;
+   display:flex;
+   background-image: 
+        url("row1.jpg"),
+        url("row2.jpg"),
+        url("row3.jpg"),
+        url("row4.jpg"),
+        url("row5.jpg"),
+        url("row6.jpg"),
+        url("row7.jpg");
+    background-size: contain, contain, contain, contain, contain, contain, contain;
+     background-position:
+        0% center,
+        15% center,
+        30% center,
+        45% center,
+        60% center,
+        80% center,
+        100% center;
+    background-repeat: no-repeat;
+    height:200px;
+    width:100%;
+        
 }
 
 
