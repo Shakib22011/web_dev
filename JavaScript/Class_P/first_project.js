@@ -5,9 +5,8 @@ function increase(){
      updateCounter();
      if( count>1 && count%10 == 0){
         count1++;
-        updateCounter();
-        alert("Counter reached "+count);
-        
+        alert("Counter reached "+count);   
+        updateCounter1(); 
     }
    
 }
@@ -19,16 +18,18 @@ function decrease(){
         reset();
         alert("Counter cannot be negative");
     }
-   
 }
 
 function reset(){
     count=0;
     count1=0;
     updateCounter();
+    updateCounter1();
 }
 
 function updateCounter(){
     document.getElementById("counter").textContent=count;
+}
+function updateCounter1(){
     document.getElementById("button1").textContent=count1;
 }
