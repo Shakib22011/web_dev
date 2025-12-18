@@ -1,13 +1,15 @@
 let count=0;
+let count1=0;
 function increase(){
     count++;
-    updateCounter();
+     updateCounter();
      if( count>1 && count%10 == 0){
-        var count1=0;
         count1++;
-        document.getElementById("button1").innerHTML=count1;
-        alert("Counter reached 10");
+        updateCounter();
+        alert("Counter reached "+count);
+        
     }
+   
 }
 
 function decrease(){
@@ -22,6 +24,7 @@ function decrease(){
 
 function reset(){
     count=0;
+    count1=0;
     updateCounter();
 }
 
