@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    padding:10px;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar{
+    background-color:bisque;
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+   
+}
+li{
+     padding:25px 20px;
+}
+li:hover{
+    background-color:green;
+}

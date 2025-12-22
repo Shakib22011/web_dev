@@ -1,0 +1,42 @@
+.container{
+    background-color:whitesmoke;
+    display:grid;
+    grid-template-columns:1fr 1fr 2fr;
+    grid-template-rows:1fr 8fr 8fr 1fr;
+    grid-template-areas:
+    "navbar navbar navbar"
+    "side main main"
+    "side left right"
+    "footer footer footer";
+    height:100vh;
+}
+.container div{
+    color:white;
+    display:grid;
+    place-items:center;
+}
+.navbar{
+    grid-area:navbar;
+    background-color:orange;
+    
+}
+.side{
+    grid-area:side;
+    background-color:blue;
+}
+.main{
+    grid-area:main;
+    background-color:aqua;
+}
+.left{
+    grid-area:left;
+    background-color:violet;
+}
+.right{
+    grid-area:right;
+    background-color:red;
+}
+.footer{
+    grid-area:footer;
+    background-color:black;
+}
