@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Student Result</h1>
+    <button onclick="getResult()">Get Result</button>
+    <p id="fetching"></p>
+    <div id="loaded"></div>
+  </body>
+
+  <script>
+    function getResult() {
+      document.getElementById("fetching").innerText =
+        "Fetching Result, Please wait...";
+      setTimeout(() => {
+        document.getElementById("fetching").innerText = "Result Loaded!";
+        document.getElementById("loaded").innerHTML =
+          "Name : Shakib Hossain | CGPA : 3.93";
+      }, 3000);
+    }
+  </script>
+  
+</html>
