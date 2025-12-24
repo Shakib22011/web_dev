@@ -1,0 +1,24 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.header img{
+    width:152px;
+    height:55px;
+   
+}
+.whatsapp{
+    height:40px;
+    width:166px;
+    border:1px solid #27AE60;
+    border-radius:8px;
+    color:#27AE60;
+}
+.call{
+    height:32px;
+    width:90px;
+    background:linear-gradient(to right,#0ACEFE,#2699FB);
+    border-radius:8px;
+    color:white;
+    border:0px;
+    
+}
