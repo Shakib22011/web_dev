@@ -1,6 +1,9 @@
 *{
     font-family: "Inter", sans-serif;
 }
+.container{
+    background-color:white;
+}
 .header img{
     width:152px;
     height:55px;
@@ -21,4 +24,78 @@
     color:white;
     border:0px;
     
+}
+
+.banner-left{
+    h1{
+    font-weight:700;
+    font-size:52px;
+    line-height:68px;
+    span{
+        color:#2699FB;
+        padding-bottom:20px;
+        background-image:url("images/Vector.svg");
+        background-repeat:no-repeat;
+        background-position:bottom
+    }
+}
+P{
+    font-size:22px;
+    line-height:35px;
+}
+ul{
+    li{
+        list-style:none;
+        i{
+            color:#2699FB;
+        }
+         font-size:22px;
+    }
+    text-align:start;
+}
+button.btn1{
+    border:0px;
+    border-radius:8px;
+    background:linear-gradient(to right,#0ACEFE,#2699FB);
+    padding:16px 24px;
+    color:white;
+    font-size:20px;
+}
+button.btn2{
+    border:1px solid #D0D5DD;
+    border-radius:8px;
+    padding:16px 14px;
+    font-size:18px;
+}
+
+}
+
+/* form */
+.banner-form{
+    h4{
+        font-size:18px;
+        font-weight:700;
+    }
+    p{
+        font-size:14px;
+    }
+    padding:40px;
+    button{
+        width:100%;
+        padding:10px;
+        background:linear-gradient(to right,#0ACEFE,#2699FB);
+        border-radius:8px;
+        border:0px;
+        color:white;
+
+    }
+}
+
+/* banner bottom */
+.footter-banner{
+    h1{
+        font-size:30px;
+        font-weight:700;
+        color:#2699FB;
+    }
 }
