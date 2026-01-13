@@ -2,5 +2,5 @@
   { "faculty": "ef", "dept": ["ICT", "CSE", "ME", "TE"] },
   { "faculty": "ls", "dept": ["CPS", "ESRM", "SWE", "EEE"] },
   { "faculty": "sc", "dept": ["Math", "Physics", "Chemistry", "Statistics"] },
-  { "faculty": "af", "dept": ["Accounting", "Management", "English", "FTNS"] }
+  { "faculty": "as", "dept": ["Accounting", "Management", "English", "FTNS"] }
 ]
